@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width>>, initial-scale=1.0">
     <title>Ahmed Glover Full Stack Engineer</title>
@@ -24,7 +25,7 @@
 
                 <!-- Hero need to make image float left, and a circle through css -->
 
-                 <img  style="border-radius: 50%;"  width="100px" src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/462178812_18253406500248147_1048028824540133499_n.jpg?stp=dst-jpegr_tt6&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=KIhqrOzZkU8Q7kNvwGTrGmr&_nc_oc=Adl1TvBe8LJceGZVczALOhKKXAO7Q-TolVhkTPWe77SJ7UCodosJSuMBZNyb5LcUTwG9UFD4f2PR7A6CWAreXt7n&_nc_zt=23&se=-1&_nc_ht=scontent-hou1-1.xx&_nc_gid=_xtl0yLXJswn5ApaeYVEOg&oh=00_AfWjFvD3umpbczh5ZJ90qHrSoZHDcWU4qGoPoWLJ5IFMlQ&oe=68A44467" alt="Ahmed with his son">
+                 <img id="hero-image" src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/462178812_18253406500248147_1048028824540133499_n.jpg?stp=dst-jpegr_tt6&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=KIhqrOzZkU8Q7kNvwGTrGmr&_nc_oc=Adl1TvBe8LJceGZVczALOhKKXAO7Q-TolVhkTPWe77SJ7UCodosJSuMBZNyb5LcUTwG9UFD4f2PR7A6CWAreXt7n&_nc_zt=23&se=-1&_nc_ht=scontent-hou1-1.xx&_nc_gid=_xtl0yLXJswn5ApaeYVEOg&oh=00_AfWjFvD3umpbczh5ZJ90qHrSoZHDcWU4qGoPoWLJ5IFMlQ&oe=68A44467" alt="Ahmed with his son">
                 <h2>Welcome to my Portfolio Site</h2>
                 <p>Explore my projects and skills as a FullStack Software Engineer.</p>
                 <h3>Let me know what you think!</h3>
@@ -32,7 +33,7 @@
             <div>
                 <article>
                     <section>
-                        <h4>About Me</h4>
+                        <h4 id="about">About Me</h4>
                         <p>I’m Ahmed “AJ” Glover—a software developer, entrepreneur, and storyteller who took the long road to code. 
                             My journey has been anything but linear. 
                             For nearly a decade, I worked as a paramedic, seeing life at its rawest and most urgent. 
@@ -70,7 +71,7 @@
             </div>
             <div>
                 <!-- need to style Contact Form as vertical -->
-                <form action="" method="post">
+                <form action="" method="post" id="contact">
                     <fieldset>
                         <legend> Get in Touch</legend>
                         <label for="name"> Name:
@@ -81,7 +82,6 @@
                     </label><br>
                     <label for="textarea"> Enter Your Message: <br>
                     <textarea rows="10" cols="50" name="message>">
-                        Type your message here...
                     </textarea> 
                     </label><br>
                     

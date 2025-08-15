@@ -1,0 +1,32 @@
+body {
+    background-color: #403C44;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    color: antiquewhite;
+}
+
+a {
+    color: #F0EAD6;
+    text-decoration: none;
+}
+
+li {
+    color: #F0EAD6;
+    text-decoration: none;
+}
+
+button{
+    background-color: #F0EAD6;
+    color: #403C44;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+#hero-image {
+    width: 200px;
+    border-radius: 50%;
+    
+}
